@@ -7,12 +7,16 @@ const add = (n1: number, n2: number, showResult: boolean, phrase: string) => {
 	}
 }
 
-// ? si può anche scrivere :number ma non è una good-practice perchè ts lo riesce ad inferire perfettamente
-const numberTest1: number = 5
+/**
+ * i: Se inizializzo una variabile posso anche omettere il type
+ */
+const numberTest1 = 5
 
-// ? se invece non la inizializzo subito è una good-practice mettere il type
+/**
+ * i: Se non inizializzo subito invece è meglio mettere il type
+ * i: così se poi assegno una stringa mi viene dato subito un errore
+ */
 let numberTest: number
-// così se qua assegno una stringa mi viene dato subito un errore
 numberTest = 5
 
 const number1 = 5

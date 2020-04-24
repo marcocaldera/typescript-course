@@ -1,7 +1,8 @@
-// *  Assegnazione esplicita dei type
+// *  Assegnazione esplicita dei type (poco usato)
 const person0: {
 	name: string
-	age: number // ? posso anche assegnare direttamente un valore, es: 26 per consentire di usare solamente quel val quando si crea un oggeto di questo tipo
+	// ? posso anche assegnare direttamente un valore, es: 26 per consentire di usare solamente quel val quando si crea un oggeto di questo tipo
+	age: number
 } = {
 	name: 'Marco',
 	age: 26,
@@ -14,9 +15,9 @@ const person1 = {
 	hobbies: ['Sports', 'Cooking'],
 }
 
-/*
- * TUPLE TYPES
- * Se si sa che valori ci si aspetta in un array e quanti esattamente siano possiamo usare una tupla
+/**
+ * i: TUPLE TYPES
+ * i: Se si sa che valori ci si aspetta in un array e quanti esattamente siano possiamo usare una tupla
  */
 const person2: {
 	name: string
@@ -30,9 +31,9 @@ const person2: {
 	role: [2, 'author'],
 }
 
-/*
- * ENUM TYPES
- * Serve per creare human-redable identifier
+/**
+ * i: ENUM TYPES
+ * i: Serve per creare human-redable identifier
  * implicitamente ADMIN=0 READ_ONLY=1, etc..
  * se esplicitamente metto ADMIN = 5 allora READ_ONLY = 6 ,etc..
  */

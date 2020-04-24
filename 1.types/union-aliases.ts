@@ -1,9 +1,9 @@
-// * UNION TYPE + LITERAL TYPE + CUSTOM TYPE
+// i: UNION TYPE + LITERAL TYPE + CUSTOM TYPE
 
-/*
- * CUSTOM TYPE
- * Bisogna usare un qualsiasi identificatore che non sia già built in in js (e.g., Date non è consentito)
- * Usare custom type serve xk così lo possiamo utilizzare in giro in maniera più semplice ed efficace
+/**
+ * i: CUSTOM TYPE
+ * i: Bisogna usare un qualsiasi identificatore che non sia già built in in js (e.g., Date non è consentito)
+ * i: Usare custom type serve perché così lo possiamo utilizzare in giro in maniera più semplice ed efficace
  */
 
 type Combinable /* custom type */ = number | string /* union type */
